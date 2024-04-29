@@ -8,10 +8,12 @@ public class Customer {
   private String name;
   private String type; // "Student", "Senior Citizen", or "Regular"
 
+
   public Customer(String name, String type) {
     this.name = name;
     this.type = type;
   }
+
 
   public double calculateDiscount(double amount) {
     if (type.equalsIgnoreCase("Student")) {
